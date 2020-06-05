@@ -43,6 +43,16 @@ abstract class Money
 		return amount * value;
 	}
 
+	int getAmount()
+	{
+		return amount;
+	}
+
+	void setAmount(int amount)
+	{
+		this.amount = amount;
+	}
+
 	@Override public String toString()
 	{
 		if (amount == 1)
