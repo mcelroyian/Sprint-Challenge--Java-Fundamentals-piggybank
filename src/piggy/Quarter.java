@@ -8,4 +8,11 @@ public class Quarter extends Money
 		name = "Quarter";
 		value = 0.25;
 	}
+
+	public Quarter()
+	{
+		name = "Quarter";
+		value = 0.25;
+	}
+
 }

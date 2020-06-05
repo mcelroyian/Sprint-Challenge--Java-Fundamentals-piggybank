@@ -8,4 +8,10 @@ public class Dime extends Money
 		name = "Dime";
 		value = 0.10;
 	}
+
+	public Dime()
+	{
+		name = "Dime";
+		value = 0.10;
+	}
 }

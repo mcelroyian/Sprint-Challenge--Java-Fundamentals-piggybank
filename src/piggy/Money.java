@@ -9,17 +9,19 @@ abstract class Money
 	protected int amount;
 
 
+	public Money()
+	{
+		id = ++maxId;
+		amount = 1;
+	}
+
 	public Money(int amount)
 	{
 		id = ++maxId;
 		this.amount = amount;
 	}
 
-	public Money()
-	{
-		id = ++maxId;
-		amount = 1;
-	}
+	
 
 	double getValue()
 	{
@@ -36,9 +38,9 @@ abstract class Money
 		return name;
 	}
 
-	public double save(int units)
+	double getTotal()
 	{
-		return value * units;
+		return amount * value;
 	}
 
 	@Override public String toString()

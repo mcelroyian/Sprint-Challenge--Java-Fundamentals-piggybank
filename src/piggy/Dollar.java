@@ -9,6 +9,12 @@ public class Dollar extends Money
 		value = 1.00;
 	}
 
+	public Dollar()
+	{
+		name = "Dollar";
+		value = 1.00;
+	}
+
 	@Override public String toString()
 	{
 		return "$" + amount;

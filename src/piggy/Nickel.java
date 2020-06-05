@@ -8,4 +8,10 @@ public class Nickel extends Money
 		name = "Nickel";
 		value = 0.05;
 	}
+
+	public Nickel()
+	{
+		name = "Nickel";
+		value = 0.05;
+	}
 }
